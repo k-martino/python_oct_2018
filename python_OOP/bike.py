@@ -1,27 +1,3 @@
-''' class Bike:
-    def __init__(self, price, max_speed):
-        self.price = price
-        self.max_speed = max_speed
-        self.mileage = 0
-
-    def displayInfo(self):
-        print(f"This bike costs ${self.price}, has a maximum speed of {self.max_speed}, and has {self.mileage} miles on it.")
-        return self
-
-    def ride(self):
-        print("Riding!")
-        self.mileage += 10
-        return self
-    
-    def reverse(self):
-        print("Reversing...")
-        self.mileage -= 5
-        return self
- '''
-
-
-
-
 class Bike:
     def __init__(self, price, max_speed):
         self.price = price
