@@ -114,9 +114,7 @@ def reverse(arr):
     else:
         half = int(len(arr) / 2)
     for i in range(half):
-        temp = arr[i]
-        arr[i] = arr[len(arr) - 1 - i]
-        arr[len(arr) - 1 - i] = temp
+        arr[i], arr[len(arr)-1-i] = arr[len(arr)-1-i], arr[i]
     return arr
 
 print(reverse([1, 2, 3, 4, 5]))
