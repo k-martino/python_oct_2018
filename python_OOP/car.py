@@ -4,10 +4,7 @@ class Car:
         self.speed = speed
         self.fuel = fuel
         self.mileage = mileage
-        if self.price > 10000:
-            self.tax = 0.15
-        else:
-            self.tax = 0.12
+        self.tax = 0.15 if price > 10000 else 0.12
         self.display_all()
 
     def display_all(self):
