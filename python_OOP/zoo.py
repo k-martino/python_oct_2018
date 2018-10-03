@@ -12,19 +12,12 @@ class Animal:
         print(f'Health ({self.name}): {self.health}')
         return self
 
-tony = Animal("Tony the Tiger", 130)
-tony.walk().walk().walk().run().run().displayHealth()
-
 class Dog(Animal):
     def __init__(self, name, health = 150):
         super().__init__(name, health)
     def pet(self):
         self.health += 5
         return self
-
-carmella = Dog("Carmella")
-carmella.walk().walk().walk().run().run().pet().displayHealth()
-
 
 class Dragon(Animal):
     def __init__(self, name, health = 170):
@@ -37,23 +30,25 @@ class Dragon(Animal):
         print("I am a Dragon!")
         return self
 
-spike = Dragon("Spike")
-spike.fly().fly().displayHealth()
+class Zoo:
+    def __init__(self, zoo_name):
+        self.animals = []
+        self.name = zoo_name
+    def addDog(self, name):
+        self.animals.append( Dog(name) )
+        return self
+    def addDragon(self, name):
+        self.animals.append( Dragon(name) )
+        return self
+    def printAllHealth(self):
+        print("-"*30, self.name, "-"*30)
+        for animal in self.animals:
+            animal.displayHealth()
+        return self
 
-polly = Animal("Polly the Parrot", 100)
-polly.displayHealth()
-
-try:
-    polly.pet()
-except AttributeError as err:
-    print(f"{err}")
-
-try:
-    polly.fly()
-except AttributeError as err:
-    print(f"{err}")
-
-try:
-    carmella.fly()
-except AttributeError as err:
-    print(f"{err}")
+zoo1 = Zoo("pikapew's peek-a-zoo")
+zoo1.addDog("Mella")
+zoo1.addDog("Doggy")
+zoo1.addDragon("Draggy")
+zoo1.addDragon("Dragoon")
+zoo1.printAllHealth()
