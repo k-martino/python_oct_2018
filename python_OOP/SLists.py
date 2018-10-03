@@ -41,7 +41,7 @@ class SList:
         if(i == index):
             node.next = self.head
             self.head = node
-        while(runner.next):
+        while(runner):
             i += 1
             if(i == index):
                 node.next = runner.next
@@ -57,7 +57,6 @@ sList.printAllValues("Part 1")
 sList.removeNode(12).removeNode(1)
 sList.printAllValues("Part 2")
 
-sList.insertNode(12,0)
-sList.insertNode(3,1)
+sList.insertNode(12,3)
 sList.printAllValues("Part 3")
 
