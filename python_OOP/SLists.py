@@ -6,7 +6,7 @@ Style Guide`_. Docstrings may extend over multiple lines. Sections are created
 with a section header and a colon followed by a block of indented text.
 
 .. _Google Python Style Guide:
-   http://google.github.io/styleguide/pyguide.html
+   https://github.com/google/styleguide/blob/gh-pages/pyguide.md
 
 """
 
