@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+
+        <title>Playground</title>
+
+        <style>
+
+            .container [class^=col-] {
+                border: 1px solid black;
+                flex: 0 1 auto;
+                margin: 0.2rem;
+                height: 10rem;
+                width: 10rem;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="container text-center">
+            <h1>Welcome!</h1>
+            <div class="row">
+                {% for x in range(boxes): %}
+                    <div class="col-3" style="background-color: {{ color }}"></div>
+                {% endfor %}
+            </div>
+
+    </body>
+
+</html>
