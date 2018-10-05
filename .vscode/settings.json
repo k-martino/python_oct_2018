@@ -1,7 +1,14 @@
 {
-    "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
+    "python.pythonPath": "/Users/pikap3w/OneDrive/_Dojo/python_stack/myEnvironments/py3Env/bin/python3.7",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.linting.pep8Enabled": false,
-    "python.formatting.provider": "yapf"
+    "python.formatting.provider": "black",
+    "jshint.lintHTML": true,
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "python.autoComplete.addBrackets": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.pylamaEnabled": false
 }
