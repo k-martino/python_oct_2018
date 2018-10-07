@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dojo Survey Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+</head>
+<body>
+        <h2>Dojo Survey</h2>
+        <ul>
+            <li>
+                <form action='/result', method='post'>
+                <label for="name">Your Name:</label>
+                <input id="name" name="name" type="text">
+            </li>
+            <li>
+                <label for="location">Dojo Location:</label>
+                <select name='location'>
+                    <option value='Dallas'>Dallas</option>
+                    <option value='San Jose'>San Jose</option>
+                    <option value='Seattle'>Seattle</option>
+                    <option value='LA'>Los Angeles</option>
+                    <option value='TC'>Tyson's Corner</option>
+                    <option value='Chicago'>Chicago</option>
+                    <option value='Tulsa'>Tulsa</option>
+                    <option value='Berkeley'>Berkeley</option>
+                    <option value='Boise'>Boise</option>
+                </select>
+            </li>
+            <li>
+                <label for="language">Favorite Language:</label>
+                <select name='language'>
+                    <option value='Python'>Python</option>
+                    <option value='JavaScript'>JavaScript</option>
+                    <option value='Ruby'>Ruby</option>
+                    <option value='HTML'>HTML</option>
+                    <option value='CSS'>CSS</option>
+                    <option value='Other'>Other</option>
+                </select>
+            </li>
+            <li>
+                <label for="comment">Comment (optional):</label>
+                <p><textarea name='comment'></textarea></p>
+            </li>
+        </ul>
+        <input type='submit' value='Submit'>
+    </form>
+
+</body>
+</html>
