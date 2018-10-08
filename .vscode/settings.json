@@ -3,7 +3,6 @@
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.linting.pep8Enabled": false,
-    "python.formatting.provider": "black",
     "jshint.lintHTML": true,
     "path-intellisense.autoSlashAfterDirectory": true,
     "python.autoComplete.addBrackets": true,
