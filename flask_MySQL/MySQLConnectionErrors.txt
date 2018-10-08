@@ -1,0 +1,11 @@
+pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+
+Fix: supply the correct password to pymysql.connect()
+
+pymysql.err.OperationalError: (1045, "Access denied for user 'rodot'@'localhost' (using password: YES)")
+
+Fix: supply the correct username to pymysql.connect()
+
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhosty' ([Errno 8] nodename nor servname provided, or not known)")
+
+Fix: supply the correct server name to pymysql.connect()
