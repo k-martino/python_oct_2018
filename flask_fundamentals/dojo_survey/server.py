@@ -16,7 +16,7 @@ def submit():
     print('Dojo Location', request.form['location'])
     print('Favorite Language', request.form['language'])
     print('Comment', request.form['comment'])
-    return render_template("result.html")
+    return render_template("result.html", )
 
 
 if __name__ == "__main__":
