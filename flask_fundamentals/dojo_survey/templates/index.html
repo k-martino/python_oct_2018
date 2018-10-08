@@ -1,23 +1,26 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Dojo Survey Index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 </head>
+
 <body>
-        <h2>Dojo Survey</h2>
-        <ul>
-            <li>
-                <form action='/result', method='post'>
-                <label for="name">Your Name:</label>
-                <input id="name" name="name" type="text">
-            </li>
-            <li>
-                <label for="location">Dojo Location:</label>
-                <select name='location'>
+    <div class='container'>
+        <form action='/result' , method='post'>
+            <h2 class="display-4 font-weight-bold">Dojo Survey</h2>
+            <div class='form-group row'>
+                <label for="name" class='col-sm-2 col-form-label'>Your Name:</label>
+                <input id="name" name="name" type="text" class='form-control col-sm-8'>
+            </div>
+            <div class='form-group row'>
+                <label for="location" class="col-sm-2 col-form-label">Dojo Location:</label>
+                <select name='location' class='custom-select col-sm-8'>
                     <option value='Dallas'>Dallas</option>
                     <option value='San Jose'>San Jose</option>
                     <option value='Seattle'>Seattle</option>
@@ -28,10 +31,10 @@
                     <option value='Berkeley'>Berkeley</option>
                     <option value='Boise'>Boise</option>
                 </select>
-            </li>
-            <li>
-                <label for="language">Favorite Language:</label>
-                <select name='language'>
+            </div>
+            <div class='form-group row'>
+                <label for="language" class='col-sm-2 col-form-label'>Favorite Language:</label>
+                <select name='language' class='custom-select col-sm-8'>
                     <option value='Python'>Python</option>
                     <option value='JavaScript'>JavaScript</option>
                     <option value='Ruby'>Ruby</option>
@@ -39,14 +42,20 @@
                     <option value='CSS'>CSS</option>
                     <option value='Other'>Other</option>
                 </select>
-            </li>
-            <li>
-                <label for="comment">Comment (optional):</label>
-                <p><textarea name='comment'></textarea></p>
-            </li>
-        </ul>
-        <input type='submit' value='Submit'>
-    </form>
-
+            </div>
+            <div class='form-group row'>
+                <label for="comment" class="col-sm-2 col-form-label">Comment (optional):</label>
+                <textarea name='comment' class='form-control col-sm-8'></textarea>
+            </div>
+            <div class='form-group row'>
+                <div class='col-sm-8 offset-sm-2'>
+                    <input type='submit' value='Submit' class='btn btn-primary shadow'>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>
