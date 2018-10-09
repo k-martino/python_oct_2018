@@ -1,9 +1,0 @@
-{
-    "python.formatting.provider": "yapf",
-    "editor.formatOnType": true,
-    "editor.wordWrap": "bounded",
-    "prettier.printWidth": 100,
-    "python.pythonPath": "/Users/pikap3w/OneDrive/_Dojo/python_stack/myEnvironments/py3Env/bin/python",
-    "editor.wordWrapColumn": 100,
-    "editor.wrappingIndent": "indent"
-}
