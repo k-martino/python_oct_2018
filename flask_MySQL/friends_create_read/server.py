@@ -4,11 +4,13 @@ from mysqlconnection import connectToMySQL
 app = Flask(__name__)
 app.secret_key = "Shhhhhhhh"
 
+
 @app.route("/")
 def index():
     mysql = connectToMySQL("friendsDB")
     query = mysql.query_db("SELECT * FROM friends;")
     return render_template("index.html", friends=query)
+
 
 @app.route("/insert", methods=['POST'])
 def insert():
@@ -21,7 +23,6 @@ def insert():
     }
     id = mysql.query_db(query, data)
     return redirect('/')
-
 
 
 if __name__ == "__main__":

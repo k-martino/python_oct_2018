@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Login and Registration</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+        integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row display-4 font-weight-bold m-3">Login and Registration</div>
+        <div class="row">
+            <!-- REGISTRATION SECTION -->
+            <div class="col-md-5 ml-3">
+                <h3 class="font-weight-bold col-md-8">Register Here!</h3>
+                <form action='/createUser' , method='post'>
+
+
+
+                    <div class="col-md-8 form-group">
+                        <input class="form-control" id="first_name" name="first_name" placeholder="First Name" type="text">
+                    </div>
+                    {% with errors = get_flashed_messages(category_filter=["first_name"]) %}
+                    {% if errors %}
+                    <div class="col-md-8 form-group text-danger">
+                        {%- for msg in errors %}
+                        {{ msg }}
+                        {% endfor -%}
+                    </div>
+                    {% endif %}
+                    {% endwith %}
+
+                    <div class="col-md-8 form-group">
+                        <input class="form-control" id="last_name" name="last_name" placeholder="Last Name"
+                            type="text">
+                    </div>
+                    {% with errors = get_flashed_messages(category_filter=["last_name"]) %}
+                    {% if errors %}
+                    <div class="col-md-8 form-group text-danger">
+                        {% for msg in errors %}
+                        {{ msg }}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                    {% endwith %}
+
+                    <div class="col-md-8 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="text">
+                    </div>
+                    {% with errors = get_flashed_messages(category_filter=["email"]) %}
+                    {% if errors %}
+                    <div class="col-md-8 form-group text-danger">
+                        {% for msg in errors %}
+                        {{ msg }}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                    {% endwith %}
+
+
+                    <div class="col-md-8 form-group">
+                        <input class="form-control" id="password" name="password" placeholder="Password"
+                            type="password">
+                    </div>
+                    {% with errors = get_flashed_messages(category_filter=["password"]) %}
+                    {% if errors %}
+                    <div class="col-md-8 form-group text-danger">
+                        {% for msg in errors %}
+                        {{ msg }}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                    {% endwith %}
+
+
+                    <div class="col-md-8 form-group">
+                        <input class="form-control" name="confirmpassword" placeholder="Confirm Password"
+                            type="password">
+                    </div>
+                    {% with errors = get_flashed_messages(category_filter=["confirmpassword"]) %}
+                    {% if errors %}
+                    <div class="col-md-8 form-group text-danger">
+                        {% for msg in errors %}
+                        {{ msg }}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                    {% endwith %}
+
+
+                    <div class="col-md-8 form-group">
+                        <input class="btn btn-success" type="submit" value="Register">
+                    </div>
+
+                </form>
+            </div>
+
+            <!-- LOGIN SECTION -->
+            <div class="col-md-5">
+                <h3 class="font-weight-bold col-md-8">Login Here!</h3>
+                <form action='/login' , method='post'>
+
+                    <div class="col-md-8 form-group">
+                        <input class="form-control" name="email" placeholder="Email" type="text">
+                    </div>
+
+                    <div class="col-md-8 form-group">
+                        <input class="form-control" name="password" placeholder="Password"
+                            type="password">
+                    </div>
+
+                    <div class="col-md-8 form-group">
+                        <input class="btn btn-primary" type="submit" value="Login">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

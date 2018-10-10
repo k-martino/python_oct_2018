@@ -6,8 +6,20 @@
     "jshint.lintHTML": true,
     "path-intellisense.autoSlashAfterDirectory": true,
     "python.autoComplete.addBrackets": true,
-    "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.pydocstyleEnabled": false,
-    "python.linting.pylamaEnabled": false
+    "python.linting.pylamaEnabled": false,
+    "python.formatting.provider": "yapf",
+    "editor.mouseWheelZoom": true,
+    "editor.parameterHints.cycle": true,
+    "editor.tabCompletion": "on",
+    "editor.find.autoFindInSelection": true,
+    "editor.formatOnPaste": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "dark-plus-syntax",
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "last",
+    "terminal.integrated.cursorBlinking": true,
+    "eslint.enable": false
 }
