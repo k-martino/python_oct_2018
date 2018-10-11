@@ -17,9 +17,10 @@
     "editor.formatOnPaste": true,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.colorTheme": "dark-plus-syntax",
+    "workbench.colorTheme": "Atom One Dark",
     "breadcrumbs.enabled": true,
     "breadcrumbs.filePath": "last",
     "terminal.integrated.cursorBlinking": true,
-    "eslint.enable": false
+    "eslint.enable": false,
+    "git.ignoreLimitWarning": true
 }
