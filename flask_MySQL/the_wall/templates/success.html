@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WELCOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+        integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <style>
+        h1 {
+            color: green;
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        .wrapper {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>You've been successfully registered!</h1>
+
+        <h2>Welcome, {{ session["first_name"] }}, you've been logged in!</h2>
+
+        <p><a href="/logout"> Logout</a></p>
+    </div>
+</body>
+
+</html>
