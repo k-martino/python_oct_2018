@@ -11,6 +11,9 @@ class Users(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
-    # this isn't working...
-    def __repr__(self):
-        return "<Users object: {} {} {} {}>".format(self.first_name, self.last_name, self.email_address, self.age)
+    # this isn't working... needed to restart shell and import again! (from apps.user_login.models import *)
+    # def __repr__(self):
+    #     return "<Users object: {} {} {} {}>".format(self.first_name, self.last_name, self.email_address, self.age)
+
+    def __str__(self):
+        return f"{self.first_name}"
