@@ -1,0 +1,59 @@
+Parts 1 & 2
+
+from django.db import models
+
+class Dojo(models.Model):
+    name = models.CharField(max_length=255)
+    city = models.CharField(max_length=255)
+    state = models.CharField(max_length=2)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+
+class Ninja(models.Model):
+    first_name = models.CharField(max_length=255)
+    last_name = models.CharField(max_length=255)
+
+
+dojo = models.ForeignKey(Dojo, related_name="ninjas")
+
+
+
+
+Part 3
+
+from apps.dojo_ninjas_app.models import *
+
+#1)
+Dojo.objects.create(name="CodingDojo Silicon Valley", city="Mountain View", state="CA")
+Dojo.objects.create(name="CodingDojo Seattle", city="Seattle", state="WA")
+Dojo.objects.create(name="CodingDojo New York", city="New York", state="NY")
+
+#2)
+Dojo.objects.all().delete()
+
+#3)
+Dojo.objects.create(name="CodingDojo Silicon Valley", city="Mountain View", state="CA")
+Dojo.objects.create(name="CodingDojo Seattle", city="Seattle", state="WA")
+Dojo.objects.create(name="CodingDojo New York", city="New York", state="NY")
+
+#4)
+Ninja.objects.create(first_name="Kristen", last_name="Martino", dojo_id=1)
+Ninja.objects.create(first_name="Vincent", last_name="Martino", dojo_id=1)
+Ninja.objects.create(first_name="Ninja", last_name="Martino", dojo_id=1)
+
+#5)
+Ninja.objects.create(first_name="Marianne", last_name="Martino", dojo_id=2)
+Ninja.objects.create(first_name="Gerard", last_name="Martino", dojo_id=2)
+Ninja.objects.create(first_name="Ninja", last_name="Ninja", dojo_id=2)
+
+#6)
+Ninja.objects.create(first_name="Lisa", last_name="McPhail", dojo_id=3)
+Ninja.objects.create(first_name="Yvonne", last_name="Poster", dojo_id=3)
+Ninja.objects.create(first_name="Vinnie", last_name="Martino", dojo_id=3)
+
+#7)
+Dojo.objects.first().ninjas.all()
+
+#8)
+Dojo.objects.last().ninjas.all()
