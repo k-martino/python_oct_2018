@@ -1,0 +1,24 @@
+1. 	Users.objects.all()
+2. 	Users.objects.last()
+3. 	Users.objects.create(first_name='Kristen', last_name='Martino', email_address='email@email.com', age=29)
+	Users.objects.create(first_name='Vincent', last_name='Martino', email_address='vin@email.com', age=24)
+	Users.objects.create(first_name='Marianne', last_name='Martino', email_address='mare@email.com', age=57)
+	Users.objects.create(first_name='Gerard', last_name='Martino', email_address='jerry@email.com', age=56)
+4. 	Users.objects.first()
+5. 	Users.objects.all().order_by('first_name')
+6. 	b=Users.objects.get(id=3)
+	b.last_name='Eklund Martino'
+	b.save()
+7. 	Users.objects.get(id=4).delete()
+Ninja. 	from django.db import models
+	from django.core.validators import MinLengthValidator
+
+
+	# Create your models here.
+	class Users(models.Model):
+	    first_name = models.CharField(max_length=255, validators=[MinLengthValidator(2)])
+	    last_name = models.CharField(max_length=255, validators=[MinLengthValidator(2)])
+	    email_address = models.EmailField(max_length=255, unique=True)
+	    age = models.IntegerField()
+	    created_at = models.DateTimeField(auto_now_add=True)
+	    updated_at = models.DateTimeField(auto_now=True)
