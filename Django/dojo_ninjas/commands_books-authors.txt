@@ -1,0 +1,38 @@
+Part 4
+
+#1)
+Book.objects.create(name="C sharp")
+Book.objects.create(name="Java")
+Book.objects.create(name="Python")
+Book.objects.create(name="PHP")
+Book.objects.create(name="Ruby")
+
+#2)
+Author.objects.create(first_name="Mike")
+Author.objects.create(first_name="Speros")
+Author.objects.create(first_name="John")
+Author.objects.create(first_name="Jadee")
+Author.objects.create(first_name="Jay")
+
+Part 6
+
+#1)  	Book.objects.filter(id=5).update(name="C#")
+#2)  	Author.objects.filter(id=5).update(first_name="Ketul")
+#3)  	this_book = Book.objects.get(id=1)
+	this_author = Author.objects.get(id=1)
+	this_author.books.add(this_book)
+
+	this_book = Book.objects.get(id=2)
+	this_author.books.add(this_book)
+#4)	this_author = Author.objects.get(id=2)
+	book1 = Book.objects.get(id=1)
+	book2 = Book.objects.get(id=2)
+	book3 = Book.objects.get(id=3)
+	this_author.books.add(book1, book2, book3)
+#5)  	...
+#6)  	...
+#7)  	Book.objects.get(id=3).authors.values()
+#8)  	Book.objects.get(id=3).authors.first().delete()
+#9)  	...
+#10) 	...
+#11) 	...
