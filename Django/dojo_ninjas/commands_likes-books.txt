@@ -6,7 +6,6 @@
 5) Have the first user like the last book and the first book
 6) Have the second user like the first book and the third book
 7) Have the third user like all books
-
 8) Display all users who like the first book
 9) Display the user who uploaded the first book
 10) Display all users who like the second book
@@ -48,11 +47,23 @@ fourth_book = Book.objects.get(id=4)
 fifth_book = Book.objects.get(id=5)
 user3.liked_books.add(first_book, second_book, third_book, fourth_book, fifth_book, last_book)
 
+OR:
+
+User.objects.liked_books = Book.objects.all()
+
 8)
 User.objects.filter(liked_books=first_book)
 
+OR
+
+Book.objects.first().liked_users.all()
+
 9)
 User.objects.get(uploaded_books=first_book)
+
+OR
+
+Book.objects.first().uploader
 
 10)
 User.objects.filter(liked_books=second_book)
