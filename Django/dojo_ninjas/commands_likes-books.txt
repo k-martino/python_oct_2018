@@ -1,0 +1,61 @@
+
+1) Create 3 different user accounts
+2) Have the first user create/upload 2 books.
+3) Have the second user create/upload 2 other books.
+4) Have the third user create/upload 2 other books.
+5) Have the first user like the last book and the first book
+6) Have the second user like the first book and the third book
+7) Have the third user like all books
+
+8) Display all users who like the first book
+9) Display the user who uploaded the first book
+10) Display all users who like the second book
+11) Display the user who uploaded the second book
+
+1)
+User.objects.create(first_name="Kristen")
+User.objects.create(first_name="Randy")
+User.objects.create(first_name="Mella")
+
+user1 = User.objects.get(id=1)
+user2 = User.objects.get(id=2)
+user3 = User.objects.get(id=3)
+
+2)
+Book.objects.create(name="Brief Answers to the Big Questions", uploader=user1)
+Book.objects.create(name="A Brief History of Time", uploader=user1)
+
+3)
+Book.objects.create(name="The Electric Sky", uploader=user2)
+Book.objects.create(name="Cosmos", uploader=user2)
+
+4)
+Book.objects.create(name="The Theory of Knowledge", uploader=user3)
+Book.objects.create(name="The Order of Time", uploader=user3)
+
+5)
+first_book = Book.objects.first()
+last_book = Book.objects.last()
+user1.liked_books.add(first_book, last_book)
+
+6)
+third_book = Book.objects.get(id=3)
+user2.liked_books.add(first_book, third_book)
+
+7)
+second_book = Book.objects.get(id=2)
+fourth_book = Book.objects.get(id=4)
+fifth_book = Book.objects.get(id=5)
+user3.liked_books.add(first_book, second_book, third_book, fourth_book, fifth_book, last_book)
+
+8)
+User.objects.filter(liked_books=first_book)
+
+9)
+User.objects.get(uploaded_books=first_book)
+
+10)
+User.objects.filter(liked_books=second_book)
+
+11)
+User.objects.get(uploaded_books=second_book)
