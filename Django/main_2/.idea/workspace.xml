@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c598fb93-1ce0-4779-b0ae-639fd4b29a70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../book_reviewer/.idea/dictionaries/pikap3w.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_reviewer/.idea/ProjectLabelPlugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/bcrypt-3.1.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/bcrypt-3.1.4.dist-info/RECORD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/cffi-1.11.5.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/cffi-1.11.5.dist-info/RECORD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/pycparser-2.19.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/pycparser-2.19.dist-info/RECORD" afterDir="false" />
