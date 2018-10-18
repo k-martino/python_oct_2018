@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add New User</title>
+    {% load static %}
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/user_login/css/bootstrap4-daydream.css' %}">
+</head>
+
+<body>
+<form action="/users" method="post">
+    {% csrf_token %}
+    <input type="text" name="fname_f">
+
+    <input type="text" name="email_f">
+    <input type="password" name="password_f">
+    <input type="password" name="password_confirm_f">
+    <input type="submit" name="submit_f">
+</form>
+
+<div class="container">
+    <form>
+        {% csrf_token %}
+        <div class="form-group row">
+            <label for="fname_f" class="col-sm-2 col-form-label">First Name:</label>
+            <input type="text" class="form-control col-sm-10" name="fname_f" placeholder="First Name">
+        </div>
+        <div class="form-group row">
+            <label for="fname_f" class="col-sm-2 col-form-label">Last Name:</label>
+            <input type="text" class="form-control col-sm-10" name="fname_f" placeholder="Last Name">
+        </div>
+        <div class="form-group row">
+            <div class="offset-sm-2 col-sm-10">
+                <input type="submit" class="btn btn-primary shadow">Submit</input>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

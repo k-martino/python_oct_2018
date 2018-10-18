@@ -1,19 +1,22 @@
-from django.shortcuts import render, HttpResponse, redirect, render_to_response
 from django.core.urlresolvers import reverse
+from django.shortcuts import render, redirect
+from django.contrib import messages
 from apps.user_login.models import *
 
 
 # Create your views here.
 def index(request):
-    return render_to_response("users_table.html")
+    # Retrieve all users from database
+    users = User.objects.values().all()
+    return render(request, "user_login/index.html", {'users': users})
 
 
 def new(request):
-    return render_to_response("new_user.html")
+    return render(request, "user_login/new_user.html")
 
 
 def edit(request):
-    return render_to_response("new_user.html")
+    return render(request, "user_login/edit_user.html")
 
 
 def show(request):

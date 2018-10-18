@@ -1,5 +1,5 @@
-from django.db import models
 from django.core.validators import MinLengthValidator, EmailValidator, MaxValueValidator, MinValueValidator
+from django.db import models
 
 
 # Create your models here.
@@ -17,6 +17,7 @@ class User(models.Model):
 
     def __str__(self):
         return f"{self.first_name}"
+
 
 class UserManager(models.Manager):
     def basic_validation(self, post_data):

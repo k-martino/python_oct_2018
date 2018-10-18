@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55c2adba-4912-4d5c-90f4-39276436c331" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/commands_likes-books.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commands_likes-books.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/apps/user_login/templates/user_login/edit_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/apps/user_login/templates/user_login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/apps/user_login/templates/user_login/new_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/apps/user_login/templates/user_login/show_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/.idea/dataSources/542919b1-a81a-477e-b02d-b00adbca8dfc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../users/.idea/dataSources/542919b1-a81a-477e-b02d-b00adbca8dfc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../users/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/apps/user_login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../users/apps/user_login/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/apps/user_login/static/css/bootstrap4-daydream.css" beforeDir="false" afterPath="$PROJECT_DIR$/../users/apps/user_login/static/user_login/css/bootstrap4-daydream.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/apps/user_login/static/css/bootstrap4-daydream.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../users/apps/user_login/static/user_login/css/bootstrap4-daydream.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/apps/user_login/templates/edit_user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/apps/user_login/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../users/apps/user_login/templates/user_login/index-bootstrap-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/apps/user_login/templates/new_user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/apps/user_login/templates/show_user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/apps/user_login/templates/users_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/apps/user_login/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../users/apps/user_login/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/apps/user_login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../users/apps/user_login/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../users/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/users/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../users/users/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,10 +88,10 @@
     <session id="-782039521">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,11 +124,11 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/dojo_ninjas_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="240">
               <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="57" />
               <folding>
                 <marker date="1539639263167" expanded="true" signature="83:88" ph="..." />
@@ -121,7 +141,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dojo_ninjas/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
+            <state relative-caret-position="525">
               <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
             </state>
           </provider>
@@ -130,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/book_authors/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="64" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <marker date="1539640966555" expanded="true" signature="296:301" ph="..." />
               </folding>
@@ -142,8 +162,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/likes_books/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="255">
+              <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
               <folding>
                 <marker date="1539647779951" expanded="true" signature="56:61" ph="..." />
                 <marker date="1539647779951" expanded="true" signature="372:377" ph="..." />
@@ -179,9 +199,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1081" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1435" />
+    <option name="x" value="510" />
+    <option name="y" value="1188" />
+    <option name="width" value="1680" />
     <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -191,49 +211,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dojo_ninjas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dojo_ninjas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dojo_ninjas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dojo_ninjas" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dojo_ninjas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dojo_ninjas" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="book_authors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dojo_ninjas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dojo_ninjas" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="dojo_ninjas_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dojo_ninjas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dojo_ninjas" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="likes_books" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dojo_ninjas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dojo_ninjas" type="462c0819:PsiDirectoryNode" />
-              <item name="dojo_ninjas" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="NBKnowledgePane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -331,12 +309,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1081" y="-1057" width="1435" height="978" extended-state="0" />
+    <frame x="510" y="1188" width="1680" height="978" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6354402" weight="0.19808307" />
       <window_info id="Structure" order="1" sideWeight="0.36455983" side_tool="true" weight="0.253406" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Datetimeconverter" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3295711" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -351,6 +330,8 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5006812" side_tool="true" weight="0.3295711" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.4978166" />
       <window_info active="true" anchor="bottom" id="Python Console" order="13" sideWeight="0.4993188" visible="true" weight="0.2697517" />
+      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="right" id="Quick Notes" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -411,7 +392,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="168.5" y="-142.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="169.0" y="-142.0" />
           <SelectedNodes>
             <node>f942876b-5acf-41c4-b41a-b65574fffda1.TABLE:main.dojo_ninjas_app_ninja</node>
           </SelectedNodes>
@@ -419,6 +400,7 @@
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -439,7 +421,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="161.5" y="37.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="162.0" y="37.0" />
           <SelectedNodes>
             <node>f942876b-5acf-41c4-b41a-b65574fffda1.TABLE:main.dojo_ninjas_app_dojo</node>
           </SelectedNodes>
@@ -447,6 +429,7 @@
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -463,22 +446,9 @@
     <entry file="file://$PROJECT_DIR$/apps/likes_books/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dojo_ninjas/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/book_authors/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <marker date="1539640966555" expanded="true" signature="296:301" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/dojo_ninjas_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="57" />
           <folding>
             <marker date="1539639263167" expanded="true" signature="83:88" ph="..." />
@@ -489,15 +459,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dojo_ninjas/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="525">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dojo_ninjas/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/book_authors/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1539640966555" expanded="true" signature="296:301" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/likes_books/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="255">
+          <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding>
             <marker date="1539647779951" expanded="true" signature="56:61" ph="..." />
             <marker date="1539647779951" expanded="true" signature="372:377" ph="..." />
