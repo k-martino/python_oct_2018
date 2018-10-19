@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'bookreview/css/bootstrap4-pleasant.css' %}">
+
+</head>
+<body>
+{#<div class="container">#}
+{#    <!-- Navbar -->#}
+{#    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">#}
+{#        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"#}
+{#                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"#}
+{#                aria-label="Toggle navigation">#}
+{#            <span class="navbar-toggler-icon"></span>#}
+{#        </button>#}
+{#        <a class="navbar-brand" href="#!">Navbar</a>#}
+{##}
+{#        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">#}
+{#            <ul class="navbar-nav mr-auto mt-2 mt-md-0">#}
+{#                <li class="nav-item active">#}
+{#                    <a class="nav-link" href="#!">Home#}
+{#                        <span class="sr-only">(current)</span>#}
+{#                    </a>#}
+{#                </li>#}
+{#                <li class="nav-item">#}
+{#                    <a class="nav-link" href="#!">Link</a>#}
+{#                </li>#}
+{#                <li class="nav-item">#}
+{#                    <a class="nav-link disabled" href="#!">Disabled</a>#}
+{#                </li>#}
+{#            </ul>#}
+{#            <form class="form-inline my-2 my-lg-0">#}
+{#                <input class="form-control mr-sm-2" type="text" placeholder="Search">#}
+{#            </form>#}
+{#        </div>#}
+{#    </nav>#}
+
+
+<header>
+    <div class="container-fluid navbar navbar-dark bg-secondary">
+        <a class="navbar-brand" href="{% url 'index' %}">Book Reviewer</a>
+        <ul class="nav mt-2 mt-md-0 justify-content-end">
+            <li class="nav-item">
+                <a href="{% url 'home' %}" class="nav-link text-white-50">
+                    <i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'add_bk' %}" class="nav-link text-white-50"><i class="fas fa-book"></i> Add Book and Review</a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'logout' %}" class="nav-link text-white-50"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </li>
+        </ul>
+    </div>
+</header>
+{#fa-sign-in-alt fa-border#}
+<div class="container-fluid">
+    <div class="row display-4 m-3">Login and Registration</div>
+    {#    <!-- REGISTRATION SECTION -->    #}
+    <div class="row">
+        <div class="col-md-5 ml-3">
+            <h3 class="col-md-8">Register Here!</h3>
+            <form action='{% url 'reg' %}' method='post'>
+                {% csrf_token %}
+                <div class="col-md-8 form-group">
+                    <input class="form-control" name="first_name" placeholder="First Name" type="text">
+                </div>
+{#                {% with errors = get_flashed_messages(category_filter=["first_name"]) %} {# TODO: update error msgs #}
+{#                {% if errors %}#}
+{#                <div class="col-md-8 form-group text-danger">#}
+{#                    {% - for msg in errors %}#}
+{#                    {{ msg }}#}
+{#                    {% endfor - %}#}
+{#                </div>#}
+{#                {% endif %}#}
+{#                {% endwith %}#}
+
+                <div class="col-md-8 form-group">
+                    <input class="form-control" name="last_name" placeholder="Last Name" type="text">
+                </div>
+{#                {% with errors = get_flashed_messages(category_filter=["last_name"]) %} {# TODO: update error msgs #}
+{#                    {% if errors %}#}
+{#                        <div class="col-md-8 form-group text-danger">#}
+{#                            {% for msg in errors %}#}
+{#                                {{ msg }}#}
+{#                            {% endfor %}#}
+{#                        </div>#}
+{#                    {% endif %}#}
+{#                {% endwith %}#}
+
+                <div class="col-md-8 form-group">
+                    <input class="form-control" name="alias" placeholder="Alias" type="text">
+                </div>
+{#                {% with errors = get_flashed_messages(category_filter=["alias"]) %} {# TODO: update error msgs #}
+{#                    {% if errors %}#}
+{#                        <div class="col-md-8 form-group text-danger">#}
+{#                            {% for msg in errors %}#}
+{#                                {{ msg }}#}
+{#                            {% endfor %}#}
+{#                        </div>#}
+{#                    {% endif %}#}
+{#                {% endwith %}#}
+
+                <div class="col-md-8 form-group">
+                    <input class="form-control" name="email" placeholder="Email" type="text">
+                </div>
+{#                {% with errors = get_flashed_messages(category_filter=["email"]) %} {# TODO: update error msgs #}
+{#                    {% if errors %}#}
+{#                        <div class="col-md-8 form-group text-danger">#}
+{#                            {% for msg in errors %}#}
+{#                                {{ msg }}#}
+{#                            {% endfor %}#}
+{#                        </div>#}
+{#                    {% endif %}#}
+{#                {% endwith %}#}
+
+
+                <div class="col-md-8 form-group">
+                    <input class="form-control" name="pw" placeholder="Password" type="password">
+                </div>
+{#                {% with errors = get_flashed_messages(category_filter=["password"]) %} {# TODO: update error msgs #}
+{#                    {% if errors %}#}
+{#                        <div class="col-md-8 form-group text-danger">#}
+{#                            {% for msg in errors %}#}
+{#                                {{ msg }}#}
+{#                            {% endfor %}#}
+{#                        </div>#}
+{#                    {% endif %}#}
+{#                {% endwith %}#}
+
+
+                <div class="col-md-8 form-group">
+                    <input class="form-control" name="pw_confirm" placeholder="Confirm Password"
+                           type="password">
+                </div>
+{#                {% with errors = get_flashed_messages(category_filter=["confirmpassword"]) %}#}
+                    {# TODO: update error msgs #}
+{#                    {% if errors %}#}
+{#                        <div class="col-md-8 form-group text-danger">#}
+{#                            {% for msg in errors %}#}
+{#                                {{ msg }}#}
+{#                            {% endfor %}#}
+{#                        </div>#}
+{#                    {% endif %}#}
+{#                {% endwith %}#}
+
+
+                <div class="col-md-8 form-group">
+                    <input class="btn btn-outline-success" type="submit" value="Register">
+                </div>
+
+            </form>
+        </div>
+
+        {#    <!-- LOGIN SECTION -->    #}
+        <div class="col-md-5">
+            <h3 class="col-md-8">Login Here!</h3>
+
+            <form action='/login' , method='post'> {# TODO: update link #}
+{#                {% with errors = get_flashed_messages(category_filter=["login_status"]) %} {# TODO: update error msgs #}
+{#                    {% if errors %}#}
+{#                        {% for msg in errors %}#}
+{#                            <div class="col-md-8 form-group text-danger"> {{ msg }} </div>#}
+{#                        {% endfor %}#}
+{#                    {% endif %}#}
+{#                {% endwith %}#}
+
+                <div class="col-md-8 form-group">
+                    <input class="form-control" name="email" placeholder="Email" type="text">
+                </div>
+
+                <div class="col-md-8 form-group">
+                    <input class="form-control" name="password" placeholder="Password" type="password">
+                </div>
+
+                <div class="col-md-8 form-group">
+                    <input class="btn btn-outline-primary" type="submit" value="Login">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+        integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+</body>
+</html>
