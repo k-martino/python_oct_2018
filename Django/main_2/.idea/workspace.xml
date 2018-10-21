@@ -2,29 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c598fb93-1ce0-4779-b0ae-639fd4b29a70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../book_reviewer/.idea/BlackPycharmConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../book_reviewer/apps/bookreview/static/bookreview/css/bootstrap4-pleasant.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../book_reviewer/apps/bookreview/templates/bookreview/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam_1/.idea/exam_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam_1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam_1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam_1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam_1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam_1/apps/exam/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_reviewer/.idea/dictionaries/pikap3w.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_reviewer/.idea/dictionaries/pikap3w.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_reviewer/apps/bookreview/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../book_reviewer/apps/bookreview/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_reviewer/apps/bookreview/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../book_reviewer/apps/bookreview/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_reviewer/apps/bookreview/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../book_reviewer/apps/bookreview/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_reviewer/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../book_reviewer/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book_reviewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_reviewer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/.idea/exam_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/apps/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/apps/exam/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/apps/exam/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/apps/exam/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/apps/exam/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/apps/exam/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/apps/exam/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/apps/exam/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/main/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/main/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/main/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam_1/manage.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/book_authors/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/book_authors/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/wall/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wall/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/wall/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wall/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample1-books.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-dashboard.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/bcrypt-3.1.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/bcrypt-3.1.4.dist-info/RECORD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/cffi-1.11.5.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/cffi-1.11.5.dist-info/RECORD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/pycparser-2.19.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../../myEnvironments/djangoPy3Env/lib/python3.7/site-packages/pycparser-2.19.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../phoneNumAlgorithm.py" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,30 +44,31 @@
     <session id="283328283">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="py" value="14" />
+          <entry key="html" value="2" />
+          <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="Python" value="14" />
+          <entry key="HTML" value="2" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/wall/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
+            <state relative-caret-position="972">
               <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -70,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/wall/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="43" column="65" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+            <state relative-caret-position="288">
+              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -85,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/wall/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="180">
               <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -97,8 +104,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/wall/templates/log_in.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="396">
               <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/Semi_Restful_Users/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/wall/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -124,10 +152,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="581" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="421" />
+    <option name="height" value="936" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -158,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="NBKnowledgePane" />
       <pane id="ProjectPane">
         <subPane>
@@ -175,7 +203,7 @@
               <item name="main_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="main_2" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="login_registration" type="462c0819:PsiDirectoryNode" />
+              <item name="Semi_Restful_Users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="main_2" type="b2602c69:ProjectViewProjectNode" />
@@ -194,7 +222,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,19 +290,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="978" extended-state="6" />
-    <editor active="true" />
+    <frame x="1" y="23" width="1680" height="978" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28667483" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24404761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Datetimeconverter" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="SVN Repositories" weight="0.3296582" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -283,18 +304,62 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info anchor="right" id="Json Parser" />
-      <window_info anchor="right" id="Quick Notes" />
+      <window_info anchor="bottom" id="Datetimeconverter" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Json Parser" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Quick Notes" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_DETAILS" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -304,9 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -325,21 +387,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/dojo_ninjas/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/login_registration/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -347,13 +400,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Semi_Restful_Users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/likes_books/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -362,9 +409,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/session_words/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/wall/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/wall/templates/log_in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/Semi_Restful_Users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/wall/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
+        <state relative-caret-position="972">
           <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -372,19 +449,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/Semi_Restful_Users/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/wall/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="180">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -392,20 +459,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/wall/templates/log_in.html">
+    <entry file="file://$PROJECT_DIR$/apps/wall/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/wall/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="43" column="65" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
